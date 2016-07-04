@@ -47,7 +47,35 @@ nav {
   }
 
   .top-nav-collapse {
-    padding: 0;
+    margin: 0;
+
+    &.navbar.navbar-default {
+      border-bottom: 1px solid #E5E5E5;
+    }
+
+    .container {
+      div.collapse {
+        border-bottom-width: 0;
+      }
+    }
+  }
+}
+
+ul.nav.navbar-nav {
+   li, li.active {
+     a:hover, a:focus {
+       background-color: #fff;
+     }
+   }
+
+   li.active {
+    padding: 0 15px;
+    a {
+      border-bottom: 15px solid #FBC72D;
+
+      background-color: #fff;
+      padding: 15px 0 12px;
+    }
   }
 }
 
@@ -57,39 +85,35 @@ of those sections to manage the look and feel of the site. */
 
 section {
   margin: 20px;
+  background: #fff;
 }
 
 .intro-section {
   height: 100%;
   padding-top: 150px;
   text-align: center;
-  background: #fff;
 }
 
 .story-section {
   height: 100%;
   padding-top: 150px;
   text-align: center;
-  background: #eee;
 }
 
 .info-section {
   height: 100%;
   padding-top: 150px;
   text-align: center;
-  background: #eee;
 }
 
 .contact-section {
   height: 100%;
   padding-top: 150px;
   text-align: center;
-  background: #fff;
 }
 
 .list-section {
   height: 100%;
   padding-top: 150px;
   text-align: center;
-  background: #eee;
 }
