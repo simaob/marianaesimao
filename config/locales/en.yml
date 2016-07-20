@@ -21,3 +21,8 @@
 
 en:
   hello: "Hello world"
+  nav:
+    history: 'Our Story'
+    info: 'Info'
+    contact: 'Contacts us'
+    list: 'Wedding List'
