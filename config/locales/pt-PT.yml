@@ -4,3 +4,6 @@ pt-PT:
     info: 'Informações'
     contact: 'Contactos'
     list: 'Lista'
+  date:
+    formats:
+      long: '%d de %B de %Y'

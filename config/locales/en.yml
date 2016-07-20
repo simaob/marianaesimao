@@ -26,3 +26,6 @@ en:
     info: 'Info'
     contact: 'Contacts us'
     list: 'Wedding List'
+  date:
+    formats:
+      long: '%d of %B of %Y'
