@@ -31,7 +31,7 @@ nav {
   .container {
     background-color: #fff;
     width: 100%;
-    padding: 15px 60px 0;
+    padding: 15px 79px 0;
     font-weight: bold;
     text-transform: uppercase;
 
@@ -64,20 +64,40 @@ nav {
 }
 
 ul.nav.navbar-nav {
-   li, li.active {
-     a:hover, a:focus {
-       background-color: #fff;
-     }
-   }
 
-   li.active {
+  font-size: 12px;
+
+  li a {
+    padding-left: 78px;
+    padding-right: 0;
+  }
+
+  li:nth-child(2) {
+    a {
+      padding-left: 1px;
+    }
+  }
+
+  li, li.active {
+    a:hover, a:focus {
+      background-color: #fff;
+    }
+  }
+
+  li.active {
     padding: 0 15px;
     a {
       border-bottom: 15px solid #FBC72D;
 
       background-color: #fff;
-      padding: 15px 0 12px;
     }
+  }
+}
+
+ul.nav.navbar-nav.navbar-right {
+  margin-right: 2px;
+  li a {
+    padding-left: 78px;
   }
 }
 
