@@ -3,11 +3,19 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <p><%= image_tag('logo/logo.svg') %></p>
-        <p><strong>Porto</strong></p>
+        <p class="logo"><%= image_tag('logo/logo.svg') %></p>
+        <h1 class="home">Porto</h1>
         <p><%= l(Date.parse('12/11/2016'), format: :long) %></p>
 
-        <a class="btn btn-default page-scroll" href="#about">Scroll Down!</a>
+        <p class="heart">
+          <%= render partial: "svgs/heart" %>
+        </p>
+        <p class="take-part"><%= t('intro.take_part') %></p>
+        <p class="arrow">
+          <a class="page-scroll" href="#story">
+            <%= render partial: "svgs/arrow" %>
+          </a>
+        </p>
       </div>
     </div>
   </div>

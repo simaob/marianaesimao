@@ -24,8 +24,10 @@ en:
   nav:
     history: 'Our Story'
     info: 'Info'
-    contact: 'Contacts us'
+    contact: 'Contact us'
     list: 'Wedding List'
   date:
     formats:
-      long: '%d of %B of %Y'
+      long: '%d of %B %Y'
+  intro:
+    take_part: "Come and share our join in this day"

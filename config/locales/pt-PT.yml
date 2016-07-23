@@ -7,3 +7,5 @@ pt-PT:
   date:
     formats:
       long: '%d de %B de %Y'
+  intro:
+    take_part: "Participem e partilhem da nossa felicidade neste dia"
