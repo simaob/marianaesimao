@@ -19,10 +19,10 @@
           <a class="page-scroll" href="#page-top"></a>
         </li>
         <li>
-          <a class="page-scroll" href="#story"><%= t('nav.history') %></a>
+          <a class="page-scroll inactive" href="#story"><%= t('nav.history') %></a>
         </li>
         <li>
-          <a class="page-scroll" href="#info"><%= t('nav.info') %></a>
+          <a class="page-scroll inactive" href="#info"><%= t('nav.info') %></a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -30,7 +30,7 @@
           <a class="page-scroll" href="#contact"><%= t('nav.contact') %></a>
         </li>
         <li>
-          <a class="page-scroll" href="#list"><%= t('nav.list') %></a>
+          <a class="page-scroll inactive" href="#list"><%= t('nav.list') %></a>
         </li>
         <li>
           <% opp_locale = ["en", "pt"].reject!{|t| t == I18n.locale.to_s }.first %>

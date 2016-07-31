@@ -50,6 +50,10 @@ ul.nav.navbar-nav {
     color: black;
     font-weight: bold;
     font-size: 12px;
+
+    &.inactive {
+      color: #eee;
+    }
   }
 
   li:nth-child(2) {
