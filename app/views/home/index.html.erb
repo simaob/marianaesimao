@@ -1,14 +1,16 @@
 <!-- Intro Section -->
 <%= render partial: 'home/intro' %>
 
-<!-- Story Section -->
-<%= render partial: 'home/story' %>
+<% if logged_in? %>
+  <!-- Story Section -->
+  <%= render partial: 'home/story' %>
 
-<!-- Info Section -->
-<%= render partial: 'home/info' %>
+  <!-- Info Section -->
+  <%= render partial: 'home/info' %>
 
-<!-- Contact Section -->
-<%= render partial: 'home/contact' %>
+  <!-- Contact Section -->
+  <%= render partial: 'home/contact' %>
 
-<!-- List Section -->
-<%= render partial: 'home/list' %>
+  <!-- List Section -->
+  <%= render partial: 'home/list' %>
+<% end %>

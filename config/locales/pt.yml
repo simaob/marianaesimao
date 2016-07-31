@@ -9,3 +9,6 @@ pt:
       long: '%d de %B de %Y'
   intro:
     take_part: "Participem e partilhem da nossa felicidade neste dia"
+    login_button: "Entrar"
+    city_met: "Em que cidade nos conhecemos?"
+    city_lived: "Em que cidade vivemos juntos durante mais tempo?"

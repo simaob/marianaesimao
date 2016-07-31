@@ -10,11 +10,22 @@
           <%= render partial: "svgs/heart" %>
         </p>
         <p class="take-part"><%= t('intro.take_part') %></p>
-        <p class="arrow">
-          <a class="page-scroll" href="#story">
-            <%= render partial: "svgs/arrow" %>
-          </a>
-        </p>
+        <% if logged_in? %>
+          <p class="arrow">
+            <a class="page-scroll" href="#story">
+              <%= render partial: "svgs/arrow" %>
+            </a>
+          </p>
+        <% else %>
+          <% placeholder = ["city_lived", "city_met"].shuffle.first %>
+          <div>
+            <%= form_tag(authenticate_path) do %>
+              <%= text_field_tag "password", nil,
+                placeholder: t("intro.#{placeholder}") %>
+              <%= submit_tag t('intro.login_button') %>
+            <% end %>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>

@@ -30,4 +30,7 @@ en:
     formats:
       long: '%d of %B %Y'
   intro:
-    take_part: "Come and share our join in this day"
+    take_part: "Come and share our joy in this day"
+    login_button: "Log in"
+    city_met: "City where we met?"
+    city_lived: "City where we lived together for the longest time?"
