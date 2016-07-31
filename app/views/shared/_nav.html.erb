@@ -32,6 +32,10 @@
         <li>
           <a class="page-scroll" href="#list"><%= t('nav.list') %></a>
         </li>
+        <li>
+          <% opp_locale = ["en", "pt"].reject!{|t| t == I18n.locale.to_s }.first %>
+          <%= link_to opp_locale, root_path(locale: opp_locale) %>
+        </li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
