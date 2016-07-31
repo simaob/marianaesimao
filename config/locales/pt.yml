@@ -12,3 +12,10 @@ pt:
     login_button: "Entrar"
     city_met: "Em que cidade nos conhecemos?"
     city_lived: "Em que cidade vivemos juntos durante mais tempo?"
+  contact:
+    header: "Juntem-se a nós neste dia especial"
+    tagline: "Do que estão à espera? Preencham o formulário abaixo e digam-nos que vão estar presentes! Mal podemos esperar!"
+    your_name: "Nome"
+    email: "Email de contacto"
+    notes: "Incluam o número de adultos, crianças (2-14 anos) e bebés (0-2 anos), e quaisquer requisitos dietéticos que possam ter."
+    send: "Submeter"

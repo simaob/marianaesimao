@@ -34,3 +34,10 @@ en:
     login_button: "Log in"
     city_met: "City where we met?"
     city_lived: "City where we lived together for the longest time?"
+  contact:
+    header: "Join us on our special day"
+    tagline: "What are you waiting for? Fill the RSVP and tell us you’ll be there, can’t wait to see you!"
+    your_name: "Your name"
+    email: "Your email"
+    notes: "Please tell us the number of adults, children (2-14 years), and babies (0-2 years), and any dietary requirements."
+    send: "Send"

@@ -6,4 +6,10 @@ class HomeController < ApplicationController
     auth params[:password]
     redirect_to root_path
   end
+
+  def rsvp
+    RsvpMailer.rsvp(params[:name], params[:email], params[:notes]).
+      deliver_later
+    redirect_to root_path, notice: "Email sent!"
+  end
 end
