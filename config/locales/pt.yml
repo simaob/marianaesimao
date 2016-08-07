@@ -1,9 +1,11 @@
 pt:
   nav:
     history: 'História'
-    info: 'Informações'
+    info: 'As nossas...'
     contact: 'RSVP'
-    list: 'Lista'
+    list: 'Lista?'
+    suggestions: "Suggestões"
+    your_suggestions: "As vossas..."
   date:
     formats:
       long: '%d de %B de %Y'
@@ -23,3 +25,7 @@ pt:
     email: "Email de contacto"
     notes: "Incluam o número de adultos, crianças (5-10 anos) e bebés (0-4 anos), e quaisquer requisitos dietéticos que possam ter."
     send: "Submeter"
+  suggestions:
+    header: "Sugestões"
+    tagline: "Ajudem-nos a preparar a nossa festa com sugestões de músicas ou outras!"
+    suggestions: "Nomes de músicas e outras sugestões que possam ter são muito bem-vindas!"

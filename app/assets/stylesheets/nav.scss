@@ -44,22 +44,20 @@ ul.nav.navbar-nav {
 
   font-size: 12px;
 
-  li a {
+  > li {
     padding-left: 78px;
     padding-right: 0;
     color: black;
     font-weight: bold;
     font-size: 12px;
 
-    &.inactive {
+    a.inactive {
       color: #eee;
     }
   }
 
-  li:nth-child(2) {
-    a {
-      padding-left: 1px;
-    }
+  > li:nth-child(2) {
+    padding-left: 1px;
   }
 
   li, li.active {
@@ -76,11 +74,15 @@ ul.nav.navbar-nav {
       background-color: #fff;
     }
   }
+
+  li.dropdown ul {
+    margin-left: 78px;
+  }
 }
 
 ul.nav.navbar-nav.navbar-right {
   margin-right: 2px;
-  li a {
+  li {
     padding-left: 78px;
   }
 }

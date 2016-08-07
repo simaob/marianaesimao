@@ -1,0 +1,27 @@
+<section id="suggestions" class="suggestions-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6">
+        <h1><%= t("suggestions.header") %></h1>
+        <p class="tagline"><%= t("suggestions.tagline") %></p>
+        <%= form_tag("/suggestions", class: "form-horizontal") do %>
+          <div class="form-group">
+            <%= text_field_tag "name", nil, class: "form-control",
+              placeholder: t("contact.your_name") %>
+          </div>
+          <div class="form-group">
+            <%= text_field_tag "email", nil, class: "form-control",
+              placeholder: t("contact.email") %>
+          </div>
+          <div class="form-group">
+            <%= text_area_tag "suggestions", nil, class: "form-control",
+              placeholder: t("suggestions.suggestions") %>
+          </div>
+          <%= submit_tag t("contact.send"), class: "btn btn-default" %>
+        <% end %>
+      </div>
+      <div class="col-lg-3"></div>
+    </div>
+  </div>
+</section>

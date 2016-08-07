@@ -6,6 +6,13 @@ class RsvpMailer < ApplicationMailer
     @email = email
     @notes = notes
     @answer = answer
-    mail(subject: "[RSVP] [#{@name} - #{@answer}")
+    mail(subject: "[RSVP] #{@name} - #{@answer}")
+  end
+
+  def rsvp name, email, suggestions
+    @name = name
+    @email = email
+    @suggestions = suggestions
+    mail(subject: "[Suggestions] #{@name}")
   end
 end

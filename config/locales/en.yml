@@ -23,9 +23,11 @@ en:
   hello: "Hello world"
   nav:
     history: 'Our Story'
-    info: 'Info'
+    info: 'Our...'
     contact: 'RSVP'
-    list: 'Wedding List'
+    list: 'Wedding List?'
+    suggestions: "Suggestions"
+    your_suggestions: "Your..."
   intro:
     login_button: "Log in"
     city_met: "City where we met?"
@@ -41,3 +43,7 @@ en:
     email: "Your email"
     notes: "Please tell us the number of adults, children (5-10 years), and babies (0-4 years), and any dietary requirements."
     send: "Send"
+  suggestions:
+    header: "Suggestions"
+    tagline: "Help us preparing our party with suggestions of music or other things!"
+    suggestions: "Music names and other suggestions are very welcome!"

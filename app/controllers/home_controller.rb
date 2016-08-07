@@ -12,4 +12,10 @@ class HomeController < ApplicationController
       deliver_later
     redirect_to root_path, notice: "Email sent!"
   end
+
+  def suggestions
+    RsvpMailer.suggestions(params[:name], params[:email],
+                           params[:suggestions]).deliver_late
+    redirect_to root_path, notice: "Email set!"
+  end
 end
