@@ -4,8 +4,13 @@ $iconWhiteSpritePath: image-path('glyphicons-halflings-white.png');
 $navbar-default-bg: #F2F4F3;
 $navbar-default-color: #000;
 
+$input-bg: #F4F5F4;
+$input-group-addon-border-color: #DBE2DF;
+$input-color-placeholder: #525353;
+
 @import "bootstrap";
 @import "nav";
 @import "home";
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300);
 
