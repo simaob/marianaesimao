@@ -1,7 +1,8 @@
 pt:
   nav:
     history: 'História'
-    info: 'As nossas...'
+    info: 'Informações'
+    our_suggestions: 'As nossas...'
     contact: 'RSVP'
     list: 'Lista?'
     suggestions: "Suggestões"
@@ -29,3 +30,6 @@ pt:
     header: "Sugestões"
     tagline: "Ajudem-nos a preparar a nossa festa com sugestões de músicas ou outras!"
     suggestions: "Nomes de músicas e outras sugestões que possam ter são muito bem-vindas!"
+  our_suggestions:
+    header: "As nossas sugestões"
+    tagline: "Aqui irão encontrar sugestões de estacionamento, alojamento entre outras. Esperemos disponibilizar esta secção em breve!"

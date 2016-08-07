@@ -23,7 +23,8 @@ en:
   hello: "Hello world"
   nav:
     history: 'Our Story'
-    info: 'Our...'
+    info: 'Info'
+    our_suggestions: 'Our...'
     contact: 'RSVP'
     list: 'Wedding List?'
     suggestions: "Suggestions"
@@ -47,3 +48,6 @@ en:
     header: "Suggestions"
     tagline: "Help us preparing our party with suggestions of music or other things!"
     suggestions: "Music names and other suggestions are very welcome!"
+  our_suggestions:
+    header: "Our suggestions"
+    tagline: "Here you will find our suggestions in regards to parking, accommodations and other useful tips. We hope to make this available soon!"
