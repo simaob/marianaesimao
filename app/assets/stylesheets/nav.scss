@@ -54,6 +54,14 @@ ul.nav.navbar-nav {
     a.inactive {
       color: #eee;
     }
+    &.active {
+      padding: 0 15px;
+      a {
+        border-bottom: 15px solid #FBC72D;
+
+        background-color: #fff;
+      }
+    }
   }
 
   > li:nth-child(2) {
@@ -66,14 +74,6 @@ ul.nav.navbar-nav {
     }
   }
 
-  li.active {
-    padding: 0 15px;
-    a {
-      border-bottom: 15px solid #FBC72D;
-
-      background-color: #fff;
-    }
-  }
 
   li.dropdown ul {
     margin-left: 78px;
