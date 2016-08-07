@@ -9,14 +9,17 @@ pt:
       long: '%d de %B de %Y'
     month_names: [~, Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
   intro:
-    take_part: "Participem e partilhem da nossa felicidade neste dia"
     login_button: "Entrar"
     city_met: "Em que cidade nos conhecemos?"
     city_lived: "Em que cidade vivemos juntos?"
   contact:
-    header: "Juntem-se a nós neste dia especial"
-    tagline: "Do que estão à espera? Preencham o formulário abaixo e digam-nos que vão estar presentes! Mal podemos esperar!"
+    header: "Podemos contar convosco?"
+    tagline: "Do que estão à espera? Preencham o formulário abaixo e digam-nos se vão estar presentes!"
     your_name: "Nome"
+    answer: "Escolham uma..."
+    option_1: "Sim, claro que sim!"
+    option_2: "Não, infelizmente não vamos poder ir:("
+    option_3: "Ainda não sabemos... dizemos em breve!"
     email: "Email de contacto"
     notes: "Incluam o número de adultos, crianças (5-10 anos) e bebés (0-4 anos), e quaisquer requisitos dietéticos que possam ter."
     send: "Submeter"

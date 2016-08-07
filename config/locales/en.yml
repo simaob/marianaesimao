@@ -27,7 +27,6 @@ en:
     contact: 'RSVP'
     list: 'Wedding List'
   intro:
-    take_part: "Come and share our joy in this day"
     login_button: "Log in"
     city_met: "City where we met?"
     city_lived: "City where we lived together?"
@@ -35,6 +34,10 @@ en:
     header: "Join us on our special day"
     tagline: "What are you waiting for? Fill the RSVP and tell us you’ll be there, can’t wait to see you!"
     your_name: "Your name"
+    answer: "Please choose one..."
+    option_1: "Yes, of course!"
+    option_2: "No, sadly we won't be able to go:("
+    option_3: "Don't know yet... will let you know ASAP!"
     email: "Your email"
     notes: "Please tell us the number of adults, children (5-10 years), and babies (0-4 years), and any dietary requirements."
     send: "Send"

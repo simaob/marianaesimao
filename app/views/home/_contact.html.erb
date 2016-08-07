@@ -11,6 +11,12 @@
               placeholder: t("contact.your_name") %>
           </div>
           <div class="form-group">
+            <%= select_tag "answer", options_for_select([t('contact.option_1'),
+                                                         t('contact.option_2'),
+                                                         t('contact.option_3')]),
+            class: "form-control", include_blank: t("contact.answer") %>
+          </div>
+          <div class="form-group">
             <%= text_field_tag "email", nil, class: "form-control",
               placeholder: t("contact.email") %>
           </div>

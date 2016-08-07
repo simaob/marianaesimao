@@ -105,9 +105,8 @@ section {
     &.heart {
       margin-top: 39px;
     }
-    &.take-part {
-      font-family: "Merriweather Sans";
-      margin-top: 48px;
+    &.arrow {
+      margin-top: 88px;
     }
   }
   form.form-inline {
@@ -150,8 +149,20 @@ section {
   text-align: center;
 
   .tagline {
+    margin-top: 50px;
+    margin-bottom: 40px;
     font-family: "Merriweather Sans";
     font-weight: 100;
+  }
+
+  form {
+    select > option:nth-child(1) {
+      font-family: "Merriweather Sans";
+      font-weight: 100;
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
   }
 }
 
