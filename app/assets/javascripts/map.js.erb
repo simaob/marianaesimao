@@ -9,17 +9,17 @@ $(function() {
   var church = new L.icon({
     iconUrl: '<%= asset_path('icons/church.svg') %>',
 
-    iconSize:     [38, 95], // size of the icon
+    iconSize:     [38, 80], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [-3, -36] // point from which the popup should open relative to the iconAnchor
   });
 
   var reception = new L.icon({
     iconUrl: '<%= asset_path('icons/reception.svg') %>',
 
-    iconSize:     [38, 95], // size of the icon
+    iconSize:     [38, 80], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    popupAnchor:  [-3, -36] // point from which the popup should open relative to the iconAnchor
   });
 
   $.get('http://simaoemariana.cartodb.com/api/v2/sql?format=GeoJSON&q=SELECT * FROM locais_chave WHERE icon IS NOT NULL',
@@ -28,9 +28,18 @@ $(function() {
         L.geoJson(data, {
           pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon: eval(feature.properties.icon)});
+          },
+          onEachFeature: function (feature, layer) {
+            layer.bindPopup(placesPopUp(feature.properties));
           }
         }).addTo(mymap);
       }
   });
 
 });
+
+function placesPopUp(props) {
+  return "<div class='tooltip-wrapper'><div class='map-tooltip "+ props.icon + "'>" + props.name + "</div>" +
+    "<div class='map-tooltip-content'>"+props.description+"</div></div>";
+}
+
