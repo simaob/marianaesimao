@@ -64,6 +64,14 @@ section {
 
 }
 
+@media(max-width: 450px) {
+  .intro-section {
+    .logo img {
+      width: 75%;
+    }
+  }
+}
+
 .story-section {
   height: 100%;
   padding-top: 150px;
