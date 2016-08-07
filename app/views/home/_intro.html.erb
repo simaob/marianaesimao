@@ -3,14 +3,16 @@
     <div class="row">
       <div class="col-lg-12">
         <p class="logo"><%= image_tag('logo/logo.svg') %></p>
-        <h1 class="home">Porto</h1>
-        <p><%= l(Date.parse('12/11/2016'), format: :long) %></p>
+        <% if logged_in? %>
+          <h1 class="home">Porto</h1>
+          <p><%= l(Date.parse('12/11/2016'), format: :long) %></p>
+        <% end %>
 
         <p class="heart">
           <%= render partial: "svgs/heart" %>
         </p>
-        <p class="take-part"><%= t('intro.take_part') %></p>
         <% if logged_in? %>
+          <p class="take-part"><%= t('intro.take_part') %></p>
           <p class="arrow">
             <a class="page-scroll" href="#story">
               <%= render partial: "svgs/arrow" %>
