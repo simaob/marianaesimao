@@ -26,9 +26,6 @@ en:
     info: 'Info'
     contact: 'RSVP'
     list: 'Wedding List'
-  date:
-    formats:
-      long: '%d of %B %Y'
   intro:
     take_part: "Come and share our joy in this day"
     login_button: "Log in"
@@ -39,5 +36,5 @@ en:
     tagline: "What are you waiting for? Fill the RSVP and tell us you’ll be there, can’t wait to see you!"
     your_name: "Your name"
     email: "Your email"
-    notes: "Please tell us the number of adults, children (2-14 years), and babies (0-2 years), and any dietary requirements."
+    notes: "Please tell us the number of adults, children (5-10 years), and babies (0-4 years), and any dietary requirements."
     send: "Send"
