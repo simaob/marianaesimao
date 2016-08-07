@@ -6,4 +6,11 @@ $(function() {
     maxZoom: 18
   }).addTo(mymap);
 
+  $.get('http://simaoemariana.cartodb.com/api/v2/sql?format=GeoJSON&q=SELECT * FROM locais_chave',
+    function(result) {
+      if(result !== undefined) {
+        L.geoJson(result).addTo(mymap);
+      }
+  });
+
 });
