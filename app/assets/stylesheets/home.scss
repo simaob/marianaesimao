@@ -61,7 +61,18 @@ section {
       margin-top: 48px;
     }
   }
+  form.form-inline {
+    margin-top: 70px;
+  }
+}
 
+@media(min-width: 760px) {
+  form.form-inline {
+    margin-top: 70px;
+    .psswd {
+      width: 290px;
+    }
+  }
 }
 
 @media(max-width: 450px) {

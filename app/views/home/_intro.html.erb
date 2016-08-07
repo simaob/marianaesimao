@@ -23,11 +23,11 @@
           <%= form_tag authenticate_path, class: "form-inline" do %>
             <div class="form-group">
               <%= label_tag "password", nil, class: "sr-only" %>
-              <%= text_field_tag "password", nil, class: "form-control",
+              <%= text_field_tag "password", nil, class: "form-control psswd",
                 placeholder: t("intro.#{placeholder}") %>
-              <%= submit_tag t('intro.login_button'),
-                class: "btn btn-default"  %>
             </div>
+            <%= submit_tag t('intro.login_button'),
+              class: "btn btn-default"  %>
           <% end %>
         <% end %>
       </div>
