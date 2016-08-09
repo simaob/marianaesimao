@@ -40,7 +40,7 @@ function initializeMap() {
 
 function placesPopUp(props) {
   return "<div class='tooltip-wrapper'><div class='map-tooltip "+ props.icon + "'>" + props.name + "</div>" +
-    "<div class='map-tooltip-content'>"+props.description+"</div></div>";
+    "<div class='map-tooltip-content'>"+props.description_<%=I18n.locale%>+"</div></div>";
 }
 
 $(document).on('turbolinks:load', initializeMap);
