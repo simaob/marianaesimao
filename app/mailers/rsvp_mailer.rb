@@ -9,7 +9,7 @@ class RsvpMailer < ApplicationMailer
     mail(subject: "[RSVP] #{@name} - #{@answer}")
   end
 
-  def rsvp name, email, suggestions
+  def suggestions name, email, suggestions
     @name = name
     @email = email
     @suggestions = suggestions

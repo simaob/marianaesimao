@@ -15,7 +15,7 @@ class HomeController < ApplicationController
 
   def suggestions
     RsvpMailer.suggestions(params[:name], params[:email],
-                           params[:suggestions]).deliver_late
+                           params[:suggestions]).deliver_later
     redirect_to root_path, notice: "Email set!"
   end
 end
