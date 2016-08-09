@@ -1,4 +1,4 @@
-$(function() {
+function initializeMap() {
   var mymap = L.map('map').setView([41.1731626, -8.6641788], 13);
 
   L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
@@ -36,10 +36,12 @@ $(function() {
       }
   });
 
-});
+};
 
 function placesPopUp(props) {
   return "<div class='tooltip-wrapper'><div class='map-tooltip "+ props.icon + "'>" + props.name + "</div>" +
     "<div class='map-tooltip-content'>"+props.description+"</div></div>";
 }
+
+$(document).on('turbolinks:load', initializeMap);
 

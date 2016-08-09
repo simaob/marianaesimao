@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
-  scope "(/:locale)", locale: /en|pt/ do
-    post "/authenticate", to: "home#authenticate"
-    post "/rsvp", to: "home#rsvp"
-    post "/suggestions", to: "home#suggestions"
-  end
+  post "/authenticate", to: "home#authenticate"
+  post "/rsvp", to: "home#rsvp"
+  post "/suggestions", to: "home#suggestions"
 
-  get "/:locale" => "home#index"
+  get "/:locale" => "home#index", as: :locale_root
 
   root 'home#index'
 
