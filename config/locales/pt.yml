@@ -28,8 +28,8 @@ pt:
     send: "Submeter"
   suggestions:
     header: "Sugestões"
-    tagline: "Ajudem-nos a preparar a nossa festa com sugestões de músicas ou outras!"
-    suggestions: "Nomes de músicas e outras sugestões que possam ter são muito bem-vindas!"
+    tagline: "Porque todas a ajuda é muito bem-vinda e porque queremos que aproveitem ao máximo o nosso casamento, enviem-nos sugestões! Podem ser dicas específicas ou apenas sugestões de músicas (para dançar ou conversar 'ao som de...')"
+    suggestions: "Nomes de músicas e outras sugestões que possam ter..."
   our_suggestions:
     header: "As nossas sugestões"
     tagline: "Aqui irão encontrar sugestões de estacionamento, alojamento entre outras. Esperemos disponibilizar esta secção em breve!"
