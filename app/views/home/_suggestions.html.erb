@@ -6,6 +6,7 @@
         <h1><%= t("suggestions.header") %></h1>
         <p class="tagline"><%= t("suggestions.tagline") %></p>
         <%= form_tag("/suggestions", class: "form-horizontal") do %>
+          <%= hidden_field_tag :locale, I18n.locale %>
           <div class="form-group">
             <%= text_field_tag "name", nil, class: "form-control",
               placeholder: t("contact.your_name") %>
