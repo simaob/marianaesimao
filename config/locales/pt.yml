@@ -33,3 +33,6 @@ pt:
   our_suggestions:
     header: "As nossas sugestões"
     tagline: "Aqui irão encontrar sugestões de estacionamento, alojamento entre outras. Esperemos disponibilizar esta secção em breve!"
+  notices:
+    email: "Email enviado, obrigado!"
+    authenticated: "Password correcta, boa!"

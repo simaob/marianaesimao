@@ -51,3 +51,6 @@ en:
   our_suggestions:
     header: "Our suggestions"
     tagline: "Here you will find our suggestions in regards to parking, accommodations and other useful tips. We hope to make this available soon!"
+  notices:
+    email: "Email sent, thank you!"
+    authenticated: "Correct password, well done!"
