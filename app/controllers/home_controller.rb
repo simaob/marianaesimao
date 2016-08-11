@@ -9,7 +9,7 @@ class HomeController < ApplicationController
         notice: I18n.t('notices.authenticated')
     else
       redirect_to locale_root_path(locale: I18n.locale),
-        error: I18n.t('notices.authentication_failed')
+        alert: I18n.t('notices.authentication_failed')
     end
   end
 
