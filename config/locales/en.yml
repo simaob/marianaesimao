@@ -54,3 +54,4 @@ en:
   notices:
     email: "Email sent, thank you!"
     authenticated: "Correct password, well done!"
+    authentication_failed: "Sorry... wrong password, can't let you in."

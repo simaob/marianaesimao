@@ -36,3 +36,4 @@ pt:
   notices:
     email: "Email enviado, obrigado!"
     authenticated: "Password correcta, boa!"
+    authentication_failed: "Password errada, por favor tente outra vez."

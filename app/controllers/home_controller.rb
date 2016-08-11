@@ -4,8 +4,13 @@ class HomeController < ApplicationController
 
   def authenticate
     auth params[:password]
-    redirect_to locale_root_path(locale: I18n.locale),
-      notice: I18n.t('notices.authenticated')
+    if logged_in?
+      redirect_to locale_root_path(locale: I18n.locale),
+        notice: I18n.t('notices.authenticated')
+    else
+      redirect_to locale_root_path(locale: I18n.locale),
+        error: I18n.t('notices.authentication_failed')
+    end
   end
 
   def rsvp
