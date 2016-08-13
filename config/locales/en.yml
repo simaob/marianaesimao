@@ -55,3 +55,10 @@ en:
     email: "Email sent, thank you!"
     authenticated: "Correct password, well done!"
     authentication_failed: "Sorry... wrong password, can't let you in."
+  list:
+    header: THANKS FOR THE GIFT
+    tagline: "<p>What we want most for our wedding is to have our friends and family there to celebrate the occasion with us. So more than anything we’re simply grateful for your presence!</p><p>If you would like to get us something, we’d love that too...We share with you our account number, thanks!</p>"
+    name_title: Name
+    name: SIMÃO BELCHIOR or MARIANA DOMINGOS
+    acc_title: SORT CODE + ACC NUMBER
+    acc: 30-64-42<br />67102960

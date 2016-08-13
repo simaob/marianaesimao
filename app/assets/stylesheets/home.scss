@@ -84,6 +84,21 @@ section {
       text-transform: uppercase;
     }
   }
+
+  h1 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+  }
+
+  .tagline {
+    font-family: "Merryweather Sans";
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
 }
 
 .intro-section {
@@ -133,25 +148,23 @@ section {
 
 .story-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 92px;
   text-align: center;
 }
 
 .info-section {
   height: 100%;
-  padding-top: 100px;
+  padding-top: 92px;
 }
 
 .contact-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 92px;
   text-align: center;
 
   .tagline {
     margin-top: 50px;
-    margin-bottom: 40px;
-    font-family: "Merriweather Sans";
-    font-weight: 100;
+    margin-bottom: 51px;
   }
 
   form {
@@ -167,18 +180,38 @@ section {
 
 .suggestions-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 92px;
   text-align: center;
 }
 
 .our-suggestions-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 92px;
   text-align: center;
 }
 
 .list-section {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 92px;
   text-align: center;
+  background-color: #97D0D6;
+  color: white;
+
+  .tagline {
+    p {
+      margin-bottom: 25px;
+    }
+  }
+
+  .acc_title {
+    color: #2B4548;
+    font-size: 10px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+  }
+
+  .acc_content {
+    font-family: "Merriweather Sans";
+    font-size: 23px;
+  }
 }

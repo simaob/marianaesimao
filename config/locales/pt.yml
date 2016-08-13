@@ -37,3 +37,10 @@ pt:
     email: "Email enviado, obrigado!"
     authenticated: "Password correcta, boa!"
     authentication_failed: "Password errada, por favor tente outra vez."
+  list:
+    header: Obrigado pelo presente
+    tagline: "<p>O que mais queremos para o nosso casamento é ter os nossos familiares e amigos a celebrar connosco. Por isso mais que tudo estamos felizes pela vossa presença.</p><p>Se também desejarem dar-nos algo, partilhamos aqui os detalhes da nossa conta bancária, obrigado!</p>"
+    name_title: Nome
+    name: SIMÃO BELCHIOR ou MARIANA DOMINGOS
+    acc_title: BIC/SWIFT + IBAN
+    acc: BBPIPTPL<br />PT50 0010 0000 5399 0880 0011 3
