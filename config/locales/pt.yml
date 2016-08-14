@@ -27,7 +27,7 @@ pt:
     notes: "Incluam o número de adultos, crianças (5-10 anos) e bebés (0-4 anos), e quaisquer requisitos dietéticos que possam ter."
     send: "Submeter"
   suggestions:
-    header: "Sugestões"
+    header: "As vossas sugestões"
     tagline: "Porque todas a ajuda é muito bem-vinda e porque queremos que aproveitem ao máximo o nosso casamento, enviem-nos sugestões! Podem ser dicas específicas ou apenas sugestões de músicas (para dançar ou conversar 'ao som de...')"
     suggestions: "Nomes de músicas e outras sugestões que possam ter..."
   our_suggestions:
