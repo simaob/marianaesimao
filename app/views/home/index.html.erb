@@ -2,21 +2,9 @@
 <%= render partial: 'home/intro' %>
 
 <% if logged_in? %>
-  <!-- Story Section -->
-  <%#= render partial: 'home/story' %>
-
   <!-- Info Section -->
   <%= render partial: 'home/info' %>
 
-  <!-- Contact Section -->
-  <%= render partial: 'home/contact' %>
-
-  <!-- Suggestions Section -->
-  <%= render partial: 'home/our_suggestions' %>
-
   <!-- Suggestions Section -->
   <%= render partial: 'home/suggestions' %>
-
-  <!-- List Section -->
-  <%= render partial: 'home/list' %>
 <% end %>
