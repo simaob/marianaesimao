@@ -35,10 +35,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'capistrano',  '~> 3.1'
+  gem 'capistrano', '~> 3.6'
   gem 'capistrano-rvm'
   gem 'capistrano-bundler', '>= 1.1.0'
-  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-passenger'
   gem 'capistrano3-unicorn'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -58,3 +58,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+gem 'whenever', :require => false
