@@ -6,9 +6,11 @@
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
+set :user, "simaob"
+set :rvm_ruby_version, '2.3.1'
 
-server "188.166.121.220", user: "simaob", roles: %w{app, db, web},
-  rvm_ruby_version: '2.3.1'
+server "188.166.121.220", user: fetch(:user), roles: %w{app, db, web},
+  rvm_ruby_version: fetch(:rvm_ruby_version)
 
 
 # role-based syntax
